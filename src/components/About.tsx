@@ -27,12 +27,7 @@ export default function About() {
               Nashville Software School’s immersive Software Development Bootcamp. Driven by continuous learning, completing 
               NSS’s Cloud Deployment Fundamentals workshops and expanding into AI-powered solutions. Recognized for clear 
               communication with teammates, stakeholders, and clients; adaptability in fast-paced environments.
-              </p>
-              <p>
-                I specialize in building scalable web applications using modern technologies like 
-                React, Node.js, and C++. My experience as a Google Cloud Facilitator has given me 
-                deep insights into cloud architecture and deployment strategies.
-              </p>
+              </p>              
               <p>
                 I believe in writing clean, maintainable code and staying up-to-date with the latest 
                 technologies. When I'm not coding, you can find me contributing to open-source 
@@ -44,15 +39,15 @@ export default function About() {
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="bg-dark-700 p-4 rounded-lg border border-dark-600">
                 <div className="font-semibold text-white">Location</div>
-                <div className="text-gray-300">Your City, Country</div>
+                <div className="text-gray-300">Franklin, TN</div>
               </div>
               <div className="bg-dark-700 p-4 rounded-lg border border-dark-600">
                 <div className="font-semibold text-white">Experience</div>
-                <div className="text-gray-300">3+ Years</div>
+                <div className="text-gray-300">1+ Years</div>
               </div>
               <div className="bg-dark-700 p-4 rounded-lg border border-dark-600">
                 <div className="font-semibold text-white">Education</div>
-                <div className="text-gray-300">Bachelor's Degree</div>
+                <div className="text-gray-300">Computer Science Degree</div>
               </div>
               <div className="bg-dark-700 p-4 rounded-lg border border-dark-600">
                 <div className="font-semibold text-white">Availability</div>

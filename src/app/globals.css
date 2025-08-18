@@ -60,3 +60,20 @@
     @apply border-gray-700;
   }
 } 
+@keyframes rotate-once {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Clase base */
+.logo-spin {
+  animation: rotate-once 12s linear infinite; /* 12s = 6 logos * 2s cada uno */
+  animation-play-state: running;
+}
