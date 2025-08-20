@@ -5,6 +5,7 @@ import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import FixedSidebar from '@/components/FixedSidebar'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
+      <FixedSidebar />
     </main>
   )
 } 

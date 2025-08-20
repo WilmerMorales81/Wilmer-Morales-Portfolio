@@ -28,11 +28,7 @@ export default function About() {
               NSS’s Cloud Deployment Fundamentals workshops and expanding into AI-powered solutions. Recognized for clear 
               communication with teammates, stakeholders, and clients; adaptability in fast-paced environments.
               </p>              
-              <p>
-                I believe in writing clean, maintainable code and staying up-to-date with the latest 
-                technologies. When I'm not coding, you can find me contributing to open-source 
-                projects, participating in hackathons, or sharing my knowledge with the developer community.
-              </p>
+              
             </div>
 
             {/* Quick Facts */}
