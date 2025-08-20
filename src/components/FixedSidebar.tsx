@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function FixedSidebar() {
   return (
-    <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 flex flex-col space-y-4">
+    <div className="fixed right-4 top-4 z-50 flex flex-row space-x-4">
       {/* Download Resume Button */}
       <div className="group relative">
         <a
