@@ -91,6 +91,17 @@ export default function Skills() {
       ]
     },
     {
+      title: 'Advanced Database Development',
+      institution: 'Nashville Software School',
+      date: '2025 (in progress, 50%)',
+      items: [
+        'ERDs, Data Normalization, and Database Design',
+        'SQL queries, Subqueries, CTEs, and Window Functions',
+        'Views, Stored Procedures, Triggers, and Functions',
+        'Transactions, Concurrency Control, and Query Optimization'
+      ]
+    },
+    {
       title: 'Data Structures & Algorithms',
       institution: 'Nashville Software School',
       date: '2025 (in progress, 50%)',
@@ -188,6 +199,7 @@ export default function Skills() {
           </p>
           <a
             href="#contact"
+  
             className="btn-primary inline-flex items-center"
           >
             Let's Work Together
