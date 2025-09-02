@@ -1,27 +1,29 @@
+
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform built with Next.js, TypeScript, and Stripe integration. Features include user authentication, product management, and payment processing.',
+      title: 'CRUD Bank App',
+      description: 'A comprehensive banking application with full CRUD operations for managing accounts, transactions, and user data. Features secure authentication and real-time balance updates.',
       image: '/api/placeholder/400/250',
-      technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-      liveUrl: '#',
+      technologies: ['C#', 'ASP.NET Core', 'SQL Server', 'Entity Framework', 'Bootstrap'],
+      liveUrl: 'https://crud-bank-app.vercel.app',
+      githubUrl: '#'
+    },
+
+    {
+      title: 'Personal Dashboard App',
+      description: 'A comprehensive personal dashboard application that displays weather information, user data, and various widgets. Features responsive design and integration with external APIs for real-time data.',
+      image: '/api/placeholder/400/250',
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Weather API', 'Responsive Design'],
+      liveUrl: 'https://personal-dashboard-nine-chi.vercel.app',
       githubUrl: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'Dog Adoption App',
+      description: 'A web application for dog adoption that helps connect potential adopters with dogs in need of homes. Features include dog profiles, search functionality, and adoption application forms.',
       image: '/api/placeholder/400/250',
-      technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather dashboard that displays current weather and forecasts using OpenWeatherMap API with interactive charts and maps.',
-      image: '/api/placeholder/400/250',
-      technologies: ['React', 'Chart.js', 'OpenWeatherMap API', 'CSS3'],
-      liveUrl: '#',
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Responsive Design', 'Web Forms'],
+      liveUrl: 'https://dog-adoption-app-iota.vercel.app',
       githubUrl: '#'
     }
   ]
